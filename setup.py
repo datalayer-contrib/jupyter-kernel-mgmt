@@ -69,7 +69,7 @@ setup_args = dict(
         'entrypoints',
     ],
     extras_require   = {
-        'test': ['ipykernel', 'ipython', 'mock', 'pytest'],
+        'test': ['ipykernel==5.1.1', 'ipython', 'mock', 'pytest'],
     },
     python_requires = ">=3.4",
     cmdclass         = {
