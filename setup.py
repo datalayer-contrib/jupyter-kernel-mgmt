@@ -64,12 +64,12 @@ setup_args = dict(
         'traitlets',
         'jupyter_core',
         'jupyter_protocol',
-        'pyzmq>=13',
+        'pyzmq==18.0.2',
         'python-dateutil>=2.1',
         'entrypoints',
     ],
     extras_require   = {
-        'test': ['ipykernel==5.1.1', 'ipython', 'mock', 'pytest'],
+        'test': ['ipykernel', 'ipython', 'mock', 'pytest'],
     },
     python_requires = ">=3.4",
     cmdclass         = {
